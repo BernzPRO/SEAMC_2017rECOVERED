@@ -9,10 +9,9 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 
-import com.example.brian.seamc_2017recovered.emergency_listview;
-import com.example.brian.seamc_2017recovered.tabactivity;
-import com.example.brian.seamc_2017recovered.contact_listview;
-
+import com.example.brian.seamc_2017recovered.contact.contact_listview;
+import com.example.brian.seamc_2017recovered.emergency.emergency_listview;
+import com.example.brian.seamc_2017recovered.schedule.tabactivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -43,17 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton7);
-        myImageButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
 
-                String url ="https://www.facebook.com/SEAMC-Indonesia-2017-at-BSJ-156478228178226/";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(intent);
-
-            }
-        });
 
         myImageButton = (ImageButton) findViewById(R.id.imageButton3);
         myImageButton.setOnClickListener(new View.OnClickListener(){
@@ -87,8 +76,10 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this, leaderboard.class);
-                startActivity(intentLoadActivity);
+                String url ="https://www.facebook.com/SEAMC-Indonesia-2017-at-BSJ-156478228178226/";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+
             }
         });
 

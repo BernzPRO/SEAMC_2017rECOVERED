@@ -1,4 +1,4 @@
-package com.example.brian.seamc_2017recovered;
+package com.example.brian.seamc_2017recovered.schedule;
 
 import android.app.TabActivity;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
-
+import com.example.brian.seamc_2017recovered.R;
 
 
 @SuppressWarnings("deprecation")

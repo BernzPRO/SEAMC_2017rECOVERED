@@ -1,10 +1,12 @@
-package com.example.brian.seamc_2017recovered;
+package com.example.brian.seamc_2017recovered.contact;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.example.brian.seamc_2017recovered.R;
 
 import java.util.List;
 

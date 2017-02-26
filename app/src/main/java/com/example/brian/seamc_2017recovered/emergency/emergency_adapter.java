@@ -1,4 +1,4 @@
-package com.example.brian.seamc_2017recovered;
+package com.example.brian.seamc_2017recovered.emergency;
 
 import android.content.Context;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 
+import com.example.brian.seamc_2017recovered.R;
 
 import java.util.List;
 

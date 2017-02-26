@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.brian.seamc_2017recovered.tabactivity" >
+    tools:context="com.example.brian.seamc_2017recovered.schedule.tabactivity" >
 
     <TabHost
         android:id="@android:id/tabhost"

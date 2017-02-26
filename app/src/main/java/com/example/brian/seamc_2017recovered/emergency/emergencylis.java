@@ -1,4 +1,4 @@
-package com.example.brian.seamc_2017recovered;
+package com.example.brian.seamc_2017recovered.emergency;
 
 /**
  * Created by seongbincho on 12/31/16.

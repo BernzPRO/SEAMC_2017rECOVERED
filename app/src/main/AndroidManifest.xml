@@ -28,18 +28,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".tabactivity"
+        <activity android:name=".schedule.tabactivity"
             android:theme="@style/AppTheme"/>
-        <activity android:name="schedule_listview" />
-        <activity android:name=".day3_listview"/>
-        <activity android:name=".day2_listview"/>
-        <activity android:name=".day4_listview"/>
+        <activity android:name=".schedule.schedule_listview" />
+        <activity android:name=".schedule.day3_listview"/>
+        <activity android:name=".schedule.day2_listview"/>
+        <activity android:name=".schedule.day4_listview"/>
         <activity android:name=".map"
             android:label=""/>
         <activity android:name=".news"
             android:label=""/>
-        <activity android:name=".contact_listview" />
-        <activity android:name=".emergency_listview"
+        <activity android:name=".contact.contact_listview" />
+        <activity android:name=".emergency.emergency_listview"
             android:theme="@style/AppTheme"/>
         <activity android:name=".leaderboard"
             android:label=""/>

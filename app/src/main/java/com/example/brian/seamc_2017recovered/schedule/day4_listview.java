@@ -1,10 +1,11 @@
-package com.example.brian.seamc_2017recovered;
+package com.example.brian.seamc_2017recovered.schedule;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
 
 
+import com.example.brian.seamc_2017recovered.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
  * Created by seongbincho on 12/31/16.
  */
 
-public class schedule_listview extends Activity {
+public class day4_listview extends Activity {
     private ListView lvSchedule;
     private schedule_adapter adapter;
     private List<schedulelis> mScheduleList;
@@ -27,9 +28,10 @@ public class schedule_listview extends Activity {
         mScheduleList = new ArrayList<>();
         //Add sample data for list
         //We can get data from DB, webservice here
-        mScheduleList.add(new schedulelis(1, "Opening Ceremony", "18.00-19.00", "Theater"));
-        mScheduleList.add(new schedulelis(2, "Ice Breaker & Buddy Long Term Questions", "19.00-21.30", "Theater"));
-        mScheduleList.add(new schedulelis(3, "All teachers planning meeting", "21.30", "Room"));
+        mScheduleList.add(new schedulelis(1, "Breakfast", "06.00", "Atria Hotel"));
+        mScheduleList.add(new schedulelis(2, "Departure", "-", "-"));
+
+
 
         //Init adapter
         adapter = new schedule_adapter(getApplicationContext(), mScheduleList);
