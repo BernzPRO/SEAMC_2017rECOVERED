@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_reading"
+        android:layout_marginTop="26dp"
+        android:id="@+id/imageButton10"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton11" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_teacher"
+        android:layout_marginBottom="33dp"
+        android:id="@+id/imageButton12"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageButton11" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_student"
+        android:id="@+id/imageButton11"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

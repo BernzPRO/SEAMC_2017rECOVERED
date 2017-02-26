@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 
+import com.example.brian.seamc_2017recovered.R;
 
 import java.util.ArrayList;
 import java.util.List;

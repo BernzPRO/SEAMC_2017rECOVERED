@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.brian.seamc_2017recovered.contact.contact_listview;
 import com.example.brian.seamc_2017recovered.emergency.emergency_listview;
-import com.example.brian.seamc_2017recovered.schedule.tabactivity;
+import com.example.brian.seamc_2017recovered.schedule.schedule_page;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton1);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton10);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this,tabactivity.class);
+                Intent intentLoadActivity = new Intent(MainActivity.this,schedule_page.class);
                 startActivity(intentLoadActivity);
             }
         });
@@ -67,8 +67,9 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this, emergency_listview.class);
+                Intent intentLoadActivity = new Intent(MainActivity.this, social_page.class);
                 startActivity(intentLoadActivity);
+
             }
         });
 
@@ -76,9 +77,9 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                String url ="https://www.facebook.com/SEAMC-Indonesia-2017-at-BSJ-156478228178226/";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(intent);
+                Intent intentLoadActivity = new Intent(MainActivity.this, emergency_listview.class);
+                startActivity(intentLoadActivity);
+
 
             }
         });

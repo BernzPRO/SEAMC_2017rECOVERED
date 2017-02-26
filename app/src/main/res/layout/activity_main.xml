@@ -16,22 +16,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_time"
-        android:id="@+id/imageButton1"
+        android:id="@+id/imageButton10"
         android:background="#00f00000"
         tools:ignore="ContentDescription"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_landscape"
-        android:id="@+id/imageButton2"
-        android:background="#00f00000"
-        android:contentDescription=""
-        android:layout_alignTop="@+id/imageButton8"
-        android:layout_alignStart="@+id/imageButton3"
-        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -67,23 +56,34 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_facebook"
-        android:layout_marginTop="63dp"
-        android:id="@+id/imageButton8"
-        android:background="#00f00000"
-        tools:ignore="ContentDescription"
-        android:layout_below="@+id/imageButton1"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_alarm"
+        app:srcCompat="@drawable/ic_sharesocial"
         android:id="@+id/imageButton6"
         android:background="#00f00000"
         tools:ignore="ContentDescription"
         android:layout_marginTop="49dp"
         android:layout_below="@+id/imageButton8"
         android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_alarm"
+        android:layout_marginTop="63dp"
+        android:id="@+id/imageButton8"
+        android:background="#00f00000"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/imageButton10"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_landscape"
+        android:id="@+id/imageButton2"
+        android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton3" />
 
 </RelativeLayout>

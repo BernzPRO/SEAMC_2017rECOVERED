@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_twoSP2"
+        android:id="@+id/imageButton18"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_oneSP1"
+        android:layout_marginTop="31dp"
+        android:id="@+id/imageButton17"
+        tools:ignore="ContentDescription,UnknownIdInLayout"
+        android:background="#00f00000"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton18" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_threeSP3"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/imageButton19"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageButton18" />
+</RelativeLayout>
