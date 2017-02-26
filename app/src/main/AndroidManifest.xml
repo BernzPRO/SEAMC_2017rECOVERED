@@ -32,7 +32,6 @@
             android:theme="@style/AppTheme"/>
         <activity android:name=".schedule.schedule_listview" />
         <activity android:name=".schedule.day3_listview"/>
-        <activity android:name=".schedule.day2_listview"/>
         <activity android:name=".map"
             android:label=""/>
         <activity android:name=".news"
