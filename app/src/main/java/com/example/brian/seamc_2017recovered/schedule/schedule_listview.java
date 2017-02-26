@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.example.seongbincho.seamc_2017_final.R;
+
 
 import java.util.ArrayList;
 import java.util.List;
