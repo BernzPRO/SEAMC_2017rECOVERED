@@ -12,4 +12,7 @@
     <string name="seamc">SEAMC</string>
     <string name="seamcplus">SEAMC Plus</string>
     <string name="staff">Staff</string>
+    <string name="day1">Day One</string>
+    <string name="day2">Day Two</string>
+    <string name="day3">Day Three</string>
 </resources>

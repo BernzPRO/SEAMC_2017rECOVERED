@@ -5,7 +5,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:text="Seamc"
+        android:text="@string/seamc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
@@ -56,10 +56,10 @@
         android:layout_marginBottom="15dp"
         android:layout_above="@+id/imageButton29"
         android:layout_alignEnd="@+id/imageButton29"
-        android:text="Seamc Plus" />
+        android:text="@string/seamcplus" />
 
     <TextView
-        android:text="Seamc"
+        android:text="@string/staff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"

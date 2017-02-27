@@ -37,4 +37,37 @@
         android:layout_marginTop="46dp"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/imageButton11" />
+
+    <TextView
+        android:text="@string/day1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:text="@string/day2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:text="@string/day3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/textView21" />
 </RelativeLayout>
