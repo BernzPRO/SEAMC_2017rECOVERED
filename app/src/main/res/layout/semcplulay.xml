@@ -4,60 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/day2"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView17"
-        android:layout_below="@+id/imageButton25"
-        android:layout_centerHorizontal="true" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_twoplus2"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/imageButton25"
         android:background="#00f00000"
-        tools:ignore="ContentDescription" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_oneplus1"
-        android:layout_marginTop="36dp"
-        android:id="@+id/imageButton24"
         tools:ignore="ContentDescription"
-        android:background="#00f00000"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageButton25" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_threeplus3"
-        android:layout_marginBottom="44dp"
-        android:id="@+id/imageButton26"
-        android:background="#00f00000"
-        android:contentDescription=""
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageButton25"
-        tools:ignore="ContentDescription" />
-
-    <TextView
-        android:text="@string/day1"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageButton24"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:id="@+id/textView15" />
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView16" />
 
     <TextView
         android:text="@string/day3"
@@ -66,7 +21,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView16"
-        android:layout_marginBottom="11dp"
+        android:layout_marginBottom="13dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_threeplus3"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/imageButton26"
+        android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_above="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_oneplus1"
+        android:id="@+id/imageButton24"
+        tools:ignore="ContentDescription"
+        android:background="#00f00000"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/textView15"
+        android:layout_alignStart="@+id/imageButton25" />
+
+    <TextView
+        android:text="@string/day2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/imageButton25"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/day1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/imageButton25"
+        android:layout_alignStart="@+id/textView17" />
 </RelativeLayout>

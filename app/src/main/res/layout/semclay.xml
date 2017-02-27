@@ -26,29 +26,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/imageButton11" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_numberss1"
-        android:id="@+id/imageButton"
-        android:background="#00f00000"
-        android:contentDescription=""
-        tools:ignore="ContentDescription"
-        android:layout_marginTop="46dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageButton11" />
-
-    <TextView
-        android:text="@string/day1"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButton11"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:id="@+id/textView18" />
-
     <TextView
         android:text="@string/day2"
         android:textStyle="bold"
@@ -70,4 +47,27 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="13dp"
         android:id="@+id/textView21" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_numberss1"
+        android:id="@+id/imageButton"
+        android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_above="@+id/textView18"
+        android:layout_alignStart="@+id/imageButton11"
+        android:layout_marginBottom="13dp" />
+
+    <TextView
+        android:text="@string/day1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/textView18"
+        android:layout_above="@+id/imageButton11"
+        android:layout_alignEnd="@+id/textView20" />
 </RelativeLayout>
