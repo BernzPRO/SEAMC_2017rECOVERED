@@ -28,16 +28,21 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".social_page"/>
+        <activity android:name=".social_page"
+            android:label=""/>
         <activity android:name=".schedule.schedule_listview" />
         <activity android:name=".schedule.day3_listview"/>
         <activity android:name=".schedule.day2_seamc"/>
         <activity android:name=".schedule.day2_seamc_plus"/>
         <activity android:name=".schedule.day2_staff"/>
-        <activity android:name=".schedule.seamcschedule"/>
-        <activity android:name=".schedule.seamcstaff"/>
-        <activity android:name=".schedule.seamcplusschedule"/>
-        <activity android:name=".schedule.schedule_page"/>
+        <activity android:name=".schedule.seamcschedule"
+            android:label=""/>
+        <activity android:name=".schedule.seamcstaff"
+            android:label=""/>
+        <activity android:name=".schedule.seamcplusschedule"
+            android:label=""/>
+        <activity android:name=".schedule.schedule_page"
+            android:label=""/>
         <activity android:name=".map"
             android:label=""/>
         <activity android:name=".news"

@@ -7,32 +7,34 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_numberS1"
-        android:layout_marginTop="26dp"
-        android:id="@+id/imageButton10"
-        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_numberss2"
+        android:id="@+id/imageButton11"
         android:background="#00f00000"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageButton11" />
+        tools:ignore="ContentDescription"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_numberS3"
-        android:layout_marginBottom="33dp"
-        android:id="@+id/imageButton28"
-        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_numberss3"
+        android:layout_marginBottom="41dp"
+        android:id="@+id/imageButton12"
         android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/imageButton11" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_numberS2"
-        android:id="@+id/imageButton11"
-        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_numberss1"
+        android:id="@+id/imageButton"
         android:background="#00f00000"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton11" />
 </RelativeLayout>

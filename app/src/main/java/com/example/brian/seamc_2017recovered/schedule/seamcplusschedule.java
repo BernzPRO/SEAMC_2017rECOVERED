@@ -3,6 +3,7 @@ package com.example.brian.seamc_2017recovered.schedule;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -18,9 +19,9 @@ public class seamcplusschedule extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.semclay);
+        setContentView(R.layout.semcplulay);
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton17);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton24);
         myImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +32,7 @@ public class seamcplusschedule extends AppCompatActivity{
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton18);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton25);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -42,7 +43,7 @@ public class seamcplusschedule extends AppCompatActivity{
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton19);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton26);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -52,6 +53,18 @@ public class seamcplusschedule extends AppCompatActivity{
         });
 
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
 

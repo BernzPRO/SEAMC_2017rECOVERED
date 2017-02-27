@@ -10,14 +10,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.brian.seamc_2017recovered.map">
 
-    <TextView
-        android:text="MAP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="177dp"
-        android:id="@+id/textView"
-        tools:ignore="HardcodedText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 </RelativeLayout>
