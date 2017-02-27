@@ -7,32 +7,33 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_twoSP2"
-        android:id="@+id/imageButton18"
-        tools:ignore="ContentDescription"
-        android:background="#00f00000"
+        app:srcCompat="@drawable/ic_twoplus2"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageButton25"
+        android:background="#00f00000"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_oneSP1"
-        android:layout_marginTop="31dp"
-        android:id="@+id/imageButton17"
-        tools:ignore="ContentDescription,UnknownIdInLayout"
+        app:srcCompat="@drawable/ic_oneplus1"
+        android:layout_marginTop="36dp"
+        android:id="@+id/imageButton24"
+        tools:ignore="ContentDescription"
         android:background="#00f00000"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageButton18" />
+        android:layout_alignStart="@+id/imageButton25" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_threeSP3"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/imageButton19"
-        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_threeplus3"
+        android:layout_marginBottom="44dp"
+        android:id="@+id/imageButton26"
         android:background="#00f00000"
+        android:contentDescription=""
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageButton18" />
+        android:layout_alignStart="@+id/imageButton25"
+        tools:ignore="ContentDescription" />
 </RelativeLayout>

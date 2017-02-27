@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -19,7 +20,7 @@ public class social_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.social_page);
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton20);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton30);
         myImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +32,7 @@ public class social_page extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton21);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton31);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -42,7 +43,7 @@ public class social_page extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton22);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton32);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -54,5 +55,17 @@ public class social_page extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

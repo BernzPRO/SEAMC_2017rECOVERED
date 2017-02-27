@@ -3,6 +3,7 @@ package com.example.brian.seamc_2017recovered.schedule;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -20,7 +21,7 @@ public class schedule_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.schedule_page);
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton10);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton27);
         myImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +32,7 @@ public class schedule_page extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton11);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton28);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -42,7 +43,7 @@ public class schedule_page extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton12);
+        myImageButton = (ImageButton) findViewById(R.id.imageButton29);
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -52,5 +53,17 @@ public class schedule_page extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

@@ -7,32 +7,35 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_twitter"
-        android:id="@+id/imageButton21"
-        tools:ignore="ContentDescription"
+        app:srcCompat="@drawable/ic_facebook"
+        android:layout_marginTop="49dp"
+        android:id="@+id/imageButton30"
         android:background="#00f00000"
+        android:contentDescription=""
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_twitter"
+        android:id="@+id/imageButton31"
+        android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignStart="@+id/imageButton30" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_instagram"
-        android:id="@+id/imageButton22"
+        android:layout_marginBottom="52dp"
+        android:id="@+id/imageButton32"
+        android:contentDescription=""
         android:background="#00f00000"
         tools:ignore="ContentDescription"
-        android:layout_marginBottom="16dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageButton21" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_facebook"
-        android:layout_marginTop="30dp"
-        android:id="@+id/imageButton20"
-        tools:ignore="ContentDescription"
-        android:background="#00f00000"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageButton21" />
+        android:layout_alignStart="@+id/imageButton31" />
 </RelativeLayout>
