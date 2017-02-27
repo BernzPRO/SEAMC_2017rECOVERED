@@ -9,4 +9,7 @@
     <string name="fb">Facebook</string>
     <string name="em">Emergency</string>
     <string name="sosmed">Social Media</string>
+    <string name="seamc">SEAMC</string>
+    <string name="seamcplus">SEAMC Plus</string>
+    <string name="staff">Staff</string>
 </resources>
