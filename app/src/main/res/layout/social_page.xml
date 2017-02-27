@@ -38,4 +38,37 @@
         tools:ignore="ContentDescription"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/imageButton31" />
+
+    <TextView
+        android:text="@string/fb"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="@string/twitter"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/imageButton31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="@string/insta"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textView26"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView24" />
 </RelativeLayout>

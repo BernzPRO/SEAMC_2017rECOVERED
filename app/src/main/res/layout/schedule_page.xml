@@ -18,18 +18,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_reading"
-        android:layout_marginTop="39dp"
-        android:id="@+id/imageButton27"
-        android:background="#00f00000"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_student"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -48,17 +36,6 @@
         android:background="#00f00000" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:id="@+id/textView"
-        android:layout_marginBottom="15dp"
-        android:layout_above="@+id/imageButton29"
-        android:layout_alignEnd="@+id/imageButton29"
-        android:text="@string/seamcplus" />
-
-    <TextView
         android:text="@string/staff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,4 +45,27 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_reading"
+        android:layout_marginTop="51dp"
+        android:id="@+id/imageButton27"
+        android:background="#00f00000"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_marginBottom="15dp"
+        android:text="@string/seamcplus"
+        android:layout_above="@+id/imageButton29"
+        android:layout_alignStart="@+id/imageButton29" />
 </RelativeLayout>
