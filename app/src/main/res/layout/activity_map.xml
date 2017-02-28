@@ -14,9 +14,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/map"
+        app:srcCompat="@drawable/vector_drawable_psd"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         tools:ignore="ContentDescription" />
 </RelativeLayout>
