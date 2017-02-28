@@ -24,7 +24,7 @@ public class social_page extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.facebook.com/SEAMC-Indonesia-2017-at-BSJ-156478228178226/";
+                String url = "https://m.facebook.com/competition.ac/";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
 
@@ -36,7 +36,7 @@ public class social_page extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                String url ="https://www.twitter.com";
+                String url ="https://twitter.com/dolphinscompete";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
 
@@ -47,12 +47,16 @@ public class social_page extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                String url ="https://www.instagram.com";
+                String url ="https://m.facebook.com/competition.ac/";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
 
             }
         });
+
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
 
     }

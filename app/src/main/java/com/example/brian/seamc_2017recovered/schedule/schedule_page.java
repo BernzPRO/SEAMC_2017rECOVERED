@@ -52,6 +52,10 @@ public class schedule_page extends AppCompatActivity {
             }
         });
 
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
 
     }
 

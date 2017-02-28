@@ -25,7 +25,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_megaphone"
+        app:srcCompat="@drawable/ic_share"
         android:id="@+id/imageButton3"
         android:contentDescription=""
         android:background="#00f00000"
@@ -52,17 +52,6 @@
         tools:ignore="ContentDescription"
         android:layout_alignTop="@+id/imageButton2"
         android:layout_alignStart="@+id/imageButton4" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_sharesocial"
-        android:id="@+id/imageButton6"
-        android:background="#00f00000"
-        tools:ignore="ContentDescription"
-        android:layout_marginTop="49dp"
-        android:layout_below="@+id/imageButton8"
-        android:layout_alignParentStart="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -112,7 +101,7 @@
         android:layout_alignStart="@+id/imageButton4" />
 
     <TextView
-        android:text="@string/notif"
+        android:text="@string/sosmed"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_width="wrap_content"
@@ -158,16 +147,13 @@
         android:layout_alignStart="@+id/imageButton5"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:text="@string/sosmed"
-        android:textStyle="bold"
-        android:textSize="20sp"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView13"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/imageButton6"
-        android:layout_alignParentStart="true" />
+        app:srcCompat="@drawable/ic_splash"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>

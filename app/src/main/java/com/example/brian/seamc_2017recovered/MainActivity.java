@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this, news.class);
+                Intent intentLoadActivity = new Intent(MainActivity.this, social_page.class);
                 startActivity(intentLoadActivity);
             }
         });
@@ -63,15 +63,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        myImageButton = (ImageButton) findViewById(R.id.imageButton6);
-        myImageButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this, social_page.class);
-                startActivity(intentLoadActivity);
-
-            }
-        });
 
         myImageButton = (ImageButton) findViewById(R.id.imageButton8);
         myImageButton.setOnClickListener(new View.OnClickListener(){
