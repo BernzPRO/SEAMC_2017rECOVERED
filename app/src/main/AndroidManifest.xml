@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.brian.seamc_2017recovered">
+    package="com.seamc2017.brian.seamc_2017recovered"
+    android:versionCode="1"
+    android:versionName="1.0">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +15,7 @@
 
 
 
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
 
             <intent-filter>
@@ -21,34 +23,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.MainActivity"
             android:label="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".social_page"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.social_page"
             android:label=""/>
-        <activity android:name=".schedule.schedule_listview" />
-        <activity android:name=".schedule.day3_listview"/>
-        <activity android:name=".schedule.day2_seamc"/>
-        <activity android:name=".schedule.day2_seamc_plus"/>
-        <activity android:name=".schedule.day2_staff"/>
-        <activity android:name=".schedule.seamcschedule"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.schedule_listview" />
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day3_listview"/>
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc"/>
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc_plus"/>
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_staff"/>
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcschedule"
             android:label=""/>
-        <activity android:name=".schedule.seamcstaff"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcstaff"
             android:label=""/>
-        <activity android:name=".schedule.seamcplusschedule"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcplusschedule"
             android:label=""/>
-        <activity android:name=".schedule.schedule_page"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.schedule_page"
             android:label=""/>
-        <activity android:name=".map"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.map"
             android:label=""/>
-        <activity android:name=".news"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.news"
             android:label=""/>
-        <activity android:name=".contact.contact_listview" />
-        <activity android:name=".emergency.emergency_listview"
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.contact.contact_listview" />
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.emergency.emergency_listview"
             android:theme="@style/AppTheme"/>
     </application>
 
