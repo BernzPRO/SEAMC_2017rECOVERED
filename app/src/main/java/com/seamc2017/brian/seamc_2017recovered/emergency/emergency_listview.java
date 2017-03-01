@@ -7,6 +7,7 @@ import android.widget.ListView;
 
 import com.seamc2017.brian.seamc_2017recovered.R;
 
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +35,18 @@ public class emergency_listview extends Activity {
         mEmergencyList.add(new emergencylis(4, "Siloam Karawaci", "Hospitals","021 546 0055 / 546 0066"));
         mEmergencyList.add(new emergencylis(5, "Medistra Hospital", "Hospitals","021 521 0200"));
         mEmergencyList.add(new emergencylis(6, "Global Assistance & Healthcare", "Hospitals","021 2997 8988"));
+
+        mEmergencyList.add(new emergencylis(7, "Simon Dennis", "Principal", "0812 9042 5506"));
+        mEmergencyList.add(new emergencylis(8, "Shane Nathan", "Head of Primary", "0816 806 824"));
+        mEmergencyList.add(new emergencylis(9, "Rachel Edwards", "Head of Secondary", "0815 8470 3309"));
+        mEmergencyList.add(new emergencylis(10, "Dr Marianti", "Health Advisor", "0811 1727 772"));
+        mEmergencyList.add(new emergencylis(11, "Yusuf Fadhil", "Safety Officer", "0895 3030 8886"));
+        mEmergencyList.add(new emergencylis(12, "Jennifer Simmons", "Marketing and Communications", "0855 1092 211"));
+        mEmergencyList.add(new emergencylis(13, "Gary Lovett", "Campus Manager", "0811 8008 449"));
+        mEmergencyList.add(new emergencylis(14, "Sonny Engolode", "Security & Event Management", "0812 1010 009"));
+
+
+
 
 
 

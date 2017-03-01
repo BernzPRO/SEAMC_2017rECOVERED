@@ -27,8 +27,6 @@ public class social_page extends AppCompatActivity {
                 String url = "https://m.facebook.com/competition.ac/";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
-
-
             }
         });
 
