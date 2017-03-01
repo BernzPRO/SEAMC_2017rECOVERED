@@ -12,7 +12,7 @@ public class map extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-        WebView myWebView = (WebView) findViewById(R.id.activity_map);
+        WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.loadUrl("http://imgur.com/a/V4MNE");
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeButtonEnabled(true);
