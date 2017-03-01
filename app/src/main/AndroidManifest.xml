@@ -24,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.MainActivity"
-            android:label="">
+            android:label=""
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
