@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                String url ="https://drive.google.com";
+                String url ="https://drive.google.com/drive/folders/0B58v-HuYron1c2RBclZJVlV4S1E?usp=sharing";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
