@@ -3,6 +3,7 @@ package com.example.brian.seamc_2017recovered;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 
 public class map extends AppCompatActivity {
@@ -11,6 +12,8 @@ public class map extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+        WebView myWebView = (WebView) findViewById(R.id.activity_map);
+        myWebView.loadUrl("http://imgur.com/a/V4MNE");
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
