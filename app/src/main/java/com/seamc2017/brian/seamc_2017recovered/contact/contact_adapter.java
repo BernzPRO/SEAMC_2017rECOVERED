@@ -18,6 +18,7 @@ public class contact_adapter extends BaseAdapter {
     private Context mContext;
     private List<contactlis> mContactList;
 
+
     //Constructor
 
     public contact_adapter(Context mContext, List<contactlis> mContactList){

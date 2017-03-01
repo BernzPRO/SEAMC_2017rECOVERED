@@ -14,45 +14,83 @@
         android:theme="@style/AppTheme">
 
 
-
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.SplashScreenActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.MainActivity"
-            android:label=""
+            android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.social_page"
-            android:label=""/>
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.schedule_listview" />
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day3_listview"/>
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc"/>
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc_plus"/>
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_staff"/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.schedule_listview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day3_listview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_seamc_plus"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.day2_staff"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcschedule"
-            android:label=""/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcstaff"
-            android:label=""/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.seamcplusschedule"
-            android:label=""/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.schedule.schedule_page"
-            android:label=""/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.map"
-            android:label=""/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.news"
-            android:label=""/>
-        <activity android:name="com.seamc2017.brian.seamc_2017recovered.contact.contact_listview" />
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.seamc2017.brian.seamc_2017recovered.contact.contact_listview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.seamc2017.brian.seamc_2017recovered.emergency.emergency_listview"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
